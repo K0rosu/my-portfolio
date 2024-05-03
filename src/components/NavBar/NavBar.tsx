@@ -5,8 +5,9 @@ import React, { useState } from 'react';
 const NavBar = () => {
     const StyledToobar = styled(Toolbar)(() => ({
         display: "flex",
-        justifyContent: "space-between" // Alterado para "space-between" para acomodar o ícone de menu
+        justifyContent: "flex-start" // ou "center" ou "flex-end" dependendo do alinhamento desejado
     }));
+
 
     const theme = useTheme();
     const isMobile = useMediaQuery(theme.breakpoints.down('sm')); // Verifica se a tela é menor que 'sm' (600px)
@@ -37,7 +38,7 @@ const NavBar = () => {
                         <>
                             <MenuItem onClick={scrollToAbout}>About</MenuItem>
                             {/* Adicione manipuladores de evento semelhantes para outros itens do menu */}
-                            <MenuItem>Skills</MenuItem>
+                            <MenuItem onClick={scrollToAbout}>Skills</MenuItem>
                             <MenuItem>Projects</MenuItem>
                         </>
                     )}
@@ -65,7 +66,7 @@ const NavBar = () => {
                     <ListItemText primary="About" />
                 </MenuItem>
                 {/* Adicione itens de menu semelhantes para outros links */}
-                <MenuItem>
+                <MenuItem onClick={scrollToAbout}>
                     <ListItemText primary="Skills" />
                 </MenuItem>
                 <MenuItem>
