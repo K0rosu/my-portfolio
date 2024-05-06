@@ -56,17 +56,17 @@ const Projects = () => {
                                                         Cadastro Social
                                                     </Typography>
                                                     <Typography variant="body2" color="textSecondary">
-                                                        Um site onde o administrador pode Cadastrar os Usuários, Editar, Excluir e Imprimir a ficha de um usuário preenchido.
+                                                        Um site onde o administrador pode Cadastrar os Usuários, Editar, Excluir e Imprimir a ficha de um usuário preenchido. (Usuário para DEMO: observador@hotmail.com / Senha: 123)
                                                     </Typography>
                                                     <Grid container spacing={2} style={{ marginTop: '70px' }}>
                                                         <Grid item>
-                                                            <IconButton color="primary" aria-label="GitHub" onClick={() => window.open('https://github.com')}>
+                                                            <IconButton color="primary" aria-label="GitHub" onClick={() => window.open('https://github.com/K0rosu/cadastro_social.git')}>
                                                                 <GitHubIcon />
                                                             </IconButton>
                                                             GitHub
                                                         </Grid>
                                                         <Grid item>
-                                                            <IconButton color="primary" aria-label="Live Demo" onClick={() => window.open('https://example.com')}>
+                                                            <IconButton color="primary" aria-label="Live Demo" onClick={() => window.open('https://cadastro-social.vercel.app/')}>
                                                                 <LanguageIcon />
                                                             </IconButton>
                                                             Live Demo
@@ -97,17 +97,17 @@ const Projects = () => {
                                                         Lista dos Usuários
                                                     </Typography>
                                                     <Typography variant="body2" color="textSecondary">
-                                                        Esse Site será onde vai visualizar os usuários cadastrados através de um Formulário. O administrador podera editar e configurar as informações do Formulário
+                                                        Esse Site será onde vai visualizar os usuários cadastrados através de um Formulário. O administrador podera editar e configurar as informações do Formulário. (Usuário para DEMO: admin@hotmail.com / Senha: 123)
                                                     </Typography>
                                                     <Grid container spacing={2} style={{ marginTop: '70px' }}>
                                                         <Grid item>
-                                                            <IconButton color="primary" aria-label="GitHub" onClick={() => window.open('https://github.com')}>
+                                                            <IconButton color="primary" aria-label="GitHub" onClick={() => window.open('https://github.com/K0rosu/lista_usuarios.git')}>
                                                                 <GitHubIcon />
                                                             </IconButton>
                                                             GitHub
                                                         </Grid>
                                                         <Grid item>
-                                                            <IconButton color="primary" aria-label="Live Demo" onClick={() => window.open('https://example.com')}>
+                                                            <IconButton color="primary" aria-label="Live Demo" onClick={() => window.open('https://lista-usuarios-cyan.vercel.app/')}>
                                                                 <LanguageIcon />
                                                             </IconButton>
                                                             Live Demo
@@ -142,13 +142,13 @@ const Projects = () => {
                                                     </Typography>
                                                     <Grid container spacing={2} style={{ marginTop: '80px' }}>
                                                         <Grid item>
-                                                            <IconButton color="primary" aria-label="GitHub" onClick={() => window.open('https://github.com')}>
+                                                            <IconButton color="primary" aria-label="GitHub" onClick={() => window.open('https://github.com/K0rosu/formulario_projeto4.git')}>
                                                                 <GitHubIcon />
                                                             </IconButton>
                                                             GitHub
                                                         </Grid>
                                                         <Grid item>
-                                                            <IconButton color="primary" aria-label="Live Demo" onClick={() => window.open('https://example.com')}>
+                                                            <IconButton color="primary" aria-label="Live Demo" onClick={() => window.open('https://formulario-kappa-lake.vercel.app/')}>
                                                                 <LanguageIcon />
                                                             </IconButton>
                                                             Live Demo
