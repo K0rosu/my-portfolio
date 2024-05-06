@@ -182,17 +182,12 @@ const Projects = () => {
                                                         Esse é o site oficial da Atende para o Taboão da Serra para o usuário acessar. Atualmente ele esta no ar para todo mundo.
                                                     </Typography>
                                                     <Grid container spacing={2} style={{ marginTop: '80px' }}>
-                                                        <Grid item>
-                                                            <IconButton color="primary" aria-label="GitHub" onClick={() => window.open('https://github.com')}>
-                                                                <GitHubIcon />
-                                                            </IconButton>
-                                                            GitHub
-                                                        </Grid>
+                                                    
                                                         <Grid item>
                                                             <IconButton color="primary" aria-label="Live Demo" onClick={() => window.open('https://atende.ts.sp.gov.br/')}>
                                                                 <LanguageIcon />
                                                             </IconButton>
-                                                            Live Demo
+                                                            Live
                                                         </Grid>
                                                     </Grid>
                                                 </CardContent>
