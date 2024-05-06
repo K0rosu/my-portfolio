@@ -5,7 +5,10 @@ import React, { useState } from 'react';
 const NavBar = () => {
     const StyledToobar = styled(Toolbar)(() => ({
         display: "flex",
-        justifyContent: "flex-start" // ou "center" ou "flex-end" dependendo do alinhamento desejado
+        justifyContent: "center",
+        "& > *": { // Aplica o estilo a todos os elementos filhos do Toolbar
+            margin: "0 30px" // Define um espaçamento horizontal entre os itens do navbar
+        }
     }));
 
 
@@ -30,6 +33,14 @@ const NavBar = () => {
         handleMobileMenuClose(); // Feche o menu móvel após clicar em um item
     };
 
+    const scrollToProjects = () => {
+        const aboutSection = document.getElementById("projects");
+        if (aboutSection) {
+            aboutSection.scrollIntoView({ behavior: "smooth" });
+        }
+        handleMobileMenuClose(); // Feche o menu móvel após clicar em um item
+    };
+
     return (
         <>
             <AppBar position="absolute">
@@ -39,7 +50,7 @@ const NavBar = () => {
                             <MenuItem onClick={scrollToAbout}>About</MenuItem>
                             {/* Adicione manipuladores de evento semelhantes para outros itens do menu */}
                             <MenuItem onClick={scrollToAbout}>Skills</MenuItem>
-                            <MenuItem>Projects</MenuItem>
+                            <MenuItem onClick={scrollToProjects}>Projects</MenuItem>
                         </>
                     )}
                     {isMobile && (
@@ -69,7 +80,7 @@ const NavBar = () => {
                 <MenuItem onClick={scrollToAbout}>
                     <ListItemText primary="Skills" />
                 </MenuItem>
-                <MenuItem>
+                <MenuItem onClick={scrollToProjects}>
                     <ListItemText primary="Projects" />
                 </MenuItem>
             </Menu>

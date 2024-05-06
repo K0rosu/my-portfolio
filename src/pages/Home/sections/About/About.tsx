@@ -21,7 +21,7 @@ const About = () => {
       <Container maxWidth="lg">
         <Grid container spacing={3}>
         <Grid item xs={12} md={12}>
-          <Typography color="primary" variant="h1"  textAlign="center" >About me</Typography>
+          <Typography color="primary" variant="h1"  textAlign="center" >Sobre mim</Typography>
           <Grid container display="flex" justifyContent="center" spacing={3} style={{ marginTop: '10px' }}>
             <Grid item xs={12} md={3} display="flex" justifyContent="center">
             <StyledButton2 onClick={()=> console.log("experience")}>
@@ -47,9 +47,15 @@ const About = () => {
             </StyledButton2>
             </Grid>
           </Grid>
-          <Typography color="primary" variant="h6" textAlign="left" style={{ marginTop: '40px' }}>Sou Marcelo, 20 anos, estagiário em GTI (Gestão de Tecnologia da Informação). Atualmente estou no 5º Semestre da FECAF fazendo um curso de Gestão de Tecnologia da Informação.</Typography>
+          <Typography color="primary" variant="h6" textAlign="left" style={{ marginTop: '40px' }}>
+  Meu nome é Marcelo Seithi, tenho 20 anos e sou um estagiário dedicado no setor de Desenvolvimento de Software da Prefeitura de Taboão da Serra. 
+  Ao longo dos últimos meses, tenho adquirido conhecimentos básicos e valiosos em linguagens de programação como CSS, HTML, PHP e JavaScript, além de demonstrar proficiência em SQL para gerenciamento de bancos de dados.
+  Eu já havia realizado alguns projetos utilizando Bootstrap para a prefeitura.
+</Typography>
+
           <Divider sx={{ marginTop: '20px', borderBottomWidth: '3px' }} />
-          <Typography color="primary" variant="h2"  textAlign="center" >Skills</Typography>
+          <br></br>
+          <Typography color="primary" variant="h2"  textAlign="center" >Skills (Básico)</Typography>
           <Grid container display="flex" justifyContent="center" spacing={3} pt={3}>
                                 <Grid item xs={12} md={2} display="flex" justifyContent="center">
                                     <StyledButton3 onClick={()=> console.log("php")}>
@@ -142,7 +148,7 @@ const About = () => {
 
       
     </>
-  )
-}
+  );
+};
 
-export default About
+export default About;
