@@ -27,7 +27,7 @@ const StyledImg = styled("img")(({ theme }) => ({
 const Hero = () => {
 
     const handleContactClick = () => {
-        const email = 'seuemail@gmail.com'; // Substitua pelo seu endereço de e-mail
+        const email = 'marcelo.seithi@gmail.com'; // Substitua pelo seu endereço de e-mail
         const subject = 'Contato'; // Assunto do e-mail
         const body = 'Olá Marcelo, vi seu perfil e gostaria de entrar em contato...'; // Corpo do e-mail
     
