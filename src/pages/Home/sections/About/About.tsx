@@ -48,7 +48,7 @@ const About = () => {
             </Grid>
           </Grid>
           <Typography color="primary" variant="h6" textAlign="left" style={{ marginTop: '40px' }}>
-  Meu nome é Marcelo Seithi, tenho 20 anos e sou um estagiário dedicado no setor de Desenvolvimento de Software da Prefeitura de Taboão da Serra. 
+  Meu nome é Marcelo Seithi, tenho 21 anos e sou um estagiário dedicado no setor de Desenvolvimento de Software da Prefeitura de Taboão da Serra. 
   Ao longo dos últimos meses, tenho adquirido conhecimentos básicos e valiosos em linguagens de programação como CSS, HTML, PHP e JavaScript, além de demonstrar proficiência em SQL para gerenciamento de bancos de dados.
   Eu já havia realizado alguns projetos utilizando Bootstrap para a prefeitura.
 </Typography>
