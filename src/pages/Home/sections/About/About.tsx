@@ -30,7 +30,7 @@ const About = () => {
             Experience
             </Typography>
             <Typography variant="body2" color="textSecondary">
-            6 meses de experiência como estagiário.
+            1 ano de experiência como estagiário.
             </Typography>
             </StyledButton2>
             </Grid>
